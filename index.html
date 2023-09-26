@@ -9,7 +9,7 @@
 </head>
 
 <body>
-    <!-- Navingation, the drop down menu I'm using is similar to the example used in: https://www.w3schools.com/howto/howto_css_dropdown_navbar.asp-->
+    <!-- Navigation, the drop down menu I'm using is similar to the example used in: https://www.w3schools.com/howto/howto_css_dropdown_navbar.asp-->
     <nav class="navbar">
         <div class="dropdown">
             <button class="btn" aria-label="Select from these options">Introduction</button>
@@ -20,7 +20,7 @@
             </div>
         </div>
         <a href="#sources" aria-label="Learn from the professionals">Video</a>
-        <a class="last" href="#form" aria-label="Play a game with me!">Sign up</a>
+        <a href="#form" aria-label="Play a game with me!">Sign up</a>
     </nav>
     <!-- Header-->
     <header id="header">
@@ -129,10 +129,32 @@
             </div>
         </section>
         <hr>
-        <section id="Example">
-            <h2>Try playing a game for yourself:</h2>
-            <a href="https://www.chess.com" target="_blank" aria-label="Try playing a game for yourself!"><img src="assets/images/chessboard.png"
-            alt="This would be an interactive chessboard game, meanwhile it links to the main page of chess.com"></a>
+        <section id="example">
+            <div>
+                <h2>Try playing a game for yourself:</h2>
+                <a href="https://www.chess.com" target="_blank" aria-label="Try playing a game for yourself!"><img src="assets/images/chessboard.png"
+                alt="This would be an interactive chessboard game, meanwhile it links to the main page of chess.com"></a>
+            </div>
+        </section>
+        <hr>
+        <section id="sources">
+            <div>
+                <div>
+                    <h2>Learn from a professional!</h2>
+                    <p>This right here is GothamChess, real name Levy Rozman, who is an international master (ranking in chess) who is one of the top 10,000 players in the entire world.</p>
+                    <p>He does many instructional videos and has countless courses for beginners, intermediate, and advanced players so they improve the game. We are not at that stage however, so here is a video from his youtube channel that will provide a more detailed and concrete guide into the world of chess. Enjoy!</p>
+                </div>
+                <div class="levy">
+                    <a href="https://www.youtube.com/@GothamChess" target="_blank" aria-label="Clicking on Levy will take you to his youtube channel">
+                    <img src="assets/images/levy.png" alt="A picture of Levy">
+                    </a>
+                </div>
+            </div>
+            <div class="video-box">
+                <iframe class="video"
+                src="https://www.youtube.com/embed/OCSbzArwB10?mute=1&controls=1&" allowfullscreen="1" frameborder="0">
+                </iframe>
+            </div>     
         </section>
     </main>
 </body>
