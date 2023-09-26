@@ -166,6 +166,10 @@ header > div > p {
     display: block;
 }
 
+#sources {
+    padding-bottom: 131px;
+}
+
 .levy {
     padding: 20px 0;
 }
@@ -173,4 +177,25 @@ header > div > p {
 .video {
     width: 80%;
     aspect-ratio: 16 / 9;
+    border: 0;
+}
+
+footer {
+    background-color: white;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    position: fixed;
+    padding: 2px;
+}
+
+footer > div > p {
+    color:black;
+    font-style: normal;
+    font-weight: bolder;
+}
+
+footer > div > a {
+    padding: 20px;
 }
