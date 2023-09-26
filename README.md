@@ -1,39 +1,96 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# Chessibles
 
-Welcome,
+This is a website dedicated to introducing new people to the game of chess and hopefully getting them interested in playing 
 
-This is the Code Institute student template for Codeanywhere. If you are using Gitpod then you need [this template](https://github.com/Code-Institute-Org/gitpod-full-template) instead.  We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+![Responsive Mockup](https://github.com/Odzim/chessible/blob/main/media/proof%203.png)
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Codeanywhere and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **August 30th, 2023**
+## Features 
 
-## Codeanywhere Reminders
+### Existing Features
 
-To run a frontend (HTML, CSS, Javascript only) application in Codeanywhere, in the terminal, type:
+- __Navigation Bar__
 
-`python3 -m http.server`
+  - Little bar on top that has a drop down function that will let the user navigate very easily. 
 
-A button should appear to click: _Open Preview_ or _Open Browser_.
+![Nav Bar](https://github.com/Odzim/chessible/blob/main/media/nav.png)
 
-To run a frontend (HTML, CSS, Javascript only) application in Codeanywhere with no-cache, you can use this alias for `python3 -m http.server`.
+- __Header__
 
-`http_server`
+  - Basic header stating the intention of the website and introducing the user to it.
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+![Header](https://github.com/Odzim/chessible/blob/main/media/headewr.png)
 
-A button should appear to click: _Open Preview_ or _Open Browser_.
+- __Introduction__
 
-In Codeanywhere you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+  - The user will be introduced to the concept of chess and hopefully will be interested enough to learn to play the game!
+  - The user will also be introduced to the layout of the game board and 
 
-To log into the Heroku toolbelt CLI:
+![Introduction](https://github.com/Odzim/chessible/blob/main/media/Introduction.png)
 
-1. Log in to your Heroku account and go to _Account Settings_ in the menu under your avatar.
-2. Scroll down to the _API Key_ and click _Reveal_
-3. Copy the key
-4. In Codeanywhere, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
+- __Movement Section__
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
+  - This section will teach the user how the pieces move on the board. 
 
----
+![Movement](https://github.com/Odzim/chessible/blob/main/media/movement.png)
 
-Happy coding!
+- __The Footer__ 
+
+  - The footer will include links to some websites that the user might find useful if they would like to pursue their chess knowledge!
+
+![Footer](https://github.com/Odzim/chessible/blob/main/media/footer.png)
+
+- __Video__
+
+  - The video will include a professional chess player with over 2 decades of experience, educating the user on more in depth concepts.
+
+![Video](https://github.com/Odzim/chessible/blob/main/media/video%20etc.png)
+
+- __Example__
+
+  - This feature is yet to be implemented, but the user would be able to play a game against a computer to try out their first game! For now, the image will link to the official chess website
+
+![Example](https://github.com/Odzim/chessible/blob/main/media/example.png)
+
+
+### Features Left to Implement
+
+- Interactive game board
+
+## Testing 
+
+Done multiple tests with multiple different commits as I was either unhappy with the result, or another idea came to mind. I've tried making it work across multiple devices and different browsers. It works over opera gx and chrome. It seems responsive across mobile devices although optimization could be better.
+
+
+### Validator Testing 
+
+- HTML
+  - No errors were returned when passing through the official [W3C validator](https://github.com/Odzim/chessible/blob/main/media/proof%201.png)
+- CSS
+  - No errors were found when passing through the official [(Jigsaw) validator](https://github.com/Odzim/chessible/blob/main/media/proof%202.png)
+
+### Unfixed Bugs
+
+The nav bar doesnt' stretch across the whole bottom side of the page 
+
+## Deployment
+
+This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub) 
+
+- The site was deployed to GitHub pages. The steps to deploy are as follows: 
+  - In the GitHub repository, navigate to the Settings tab 
+  - From the source section drop-down menu, select the Master Branch
+  - Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment. 
+
+The live link can be found here - https://odzim.github.io/chessible/ 
+
+
+### Content 
+
+- The navigation drop down bar I learnt from https://www.w3schools.com/howto/howto_css_dropdown_navbar.asp
+
+### Media
+
+- https://hdqwalls.com/download/1920x1080/chess-8k - banner
+- https://en.wikipedia.org/wiki/Levy_Rozman -> Levy and his youtube channel https://www.youtube.com/@GothamChess
+- footer icones https://singlestory.org/home-page/open_book-free-png-transparent-background-images-free-download-clipart-pics-open-book-icon-89881/
+    https://www.freeiconspng.com/img/32134
