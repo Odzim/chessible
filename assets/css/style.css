@@ -18,9 +18,24 @@ main{
 
 h1,
 h2,
-h3 {
+h3, 
+h4{
     font-family: 'Mooli', sans-serif;
-    color: rgb(224, 192, 5)
+    color: rgb(224, 192, 5);
+    
+}
+
+h3 {
+    color: rgb(89, 222, 140)
+}
+
+h3,
+h4 {
+    text-decoration: underline;
+}
+
+span {
+    font-style: italic;
 }
 
 img {
