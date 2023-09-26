@@ -165,3 +165,12 @@ header > div > p {
 .dropdown:hover .content {
     display: block;
 }
+
+.levy {
+    padding: 20px 0;
+}
+
+.video {
+    width: 80%;
+    aspect-ratio: 16 / 9;
+}
