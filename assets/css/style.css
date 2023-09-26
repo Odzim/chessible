@@ -9,7 +9,7 @@ body {
     
 }
 
-/* Main */
+
 
 main{
     padding: 10px 30px;
@@ -55,7 +55,7 @@ ul {
     list-style-type: none;
 }
 
-/* Header */
+
 
 #header {
     margin: 0;
@@ -92,7 +92,7 @@ header > div > p {
     text-decoration: underline;
 }
 
-/* Navbar */
+
 
 .last {
     order: 1;
@@ -107,7 +107,7 @@ header > div > p {
 .navbar a:hover, .dropdown:hover .btn {
     background-color:rgb(224, 192, 5);
 }
-    /* Links inside the navbar */
+    
 .navbar a {
     float: left;
     font-size: 20px;
@@ -117,7 +117,7 @@ header > div > p {
     color: white;
 }
 
-    /* Containter */
+    
 
 .dropdown {
     float: left;
@@ -125,7 +125,7 @@ header > div > p {
     order: 2;
 }
 
-    /* Button */
+    
 
 .dropdown .btn {
     font-size: 20px;
@@ -138,7 +138,7 @@ header > div > p {
     margin: 0;
 }
 
-/* Content */
+
 
 .content {
     display: none;
@@ -148,7 +148,7 @@ header > div > p {
     z-index: 1;
 }
 
-/* Links in dropdown */
+
 .content a {
     float: none;
     color: rgb(224, 192, 5);
