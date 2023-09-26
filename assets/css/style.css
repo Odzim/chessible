@@ -12,7 +12,7 @@ body {
 /* Main */
 
 main{
-    padding: 10px 30px;
+    padding: 10px 30;
 }
 
 h1,
@@ -44,7 +44,7 @@ img {
     color: rgb(255, 253, 253);
     text-align: center;
     text-transform: uppercase;
-    text-shadow: 1 1 1 1;
+    font-size: xx-large;
     overflow: hidden;
     background-color: rgba(32,32,32, .5);
     max-width: 100%;
