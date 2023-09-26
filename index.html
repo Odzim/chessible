@@ -9,18 +9,18 @@
 </head>
 
 <body>
- <!-- Navingation, the drop down menu I'm using is similar to the example used in: https://www.w3schools.com/howto/howto_css_dropdown_navbar.asp-->
+    <!-- Navingation, the drop down menu I'm using is similar to the example used in: https://www.w3schools.com/howto/howto_css_dropdown_navbar.asp-->
     <nav class="navbar">
         <div class="dropdown">
             <button class="btn" aria-label="Select from these options">Introduction</button>
-                <div class="content">
-                    <a href="#intro" aria-label="Introduction and rules">Introduction</a>
-                    <a href="#movement" aria-label="Section about movement">Movemenet</a>
-                    <a href="#example" aria-label="Runnable example of a game">Example</a>
-                </div>
+            <div class="content">
+                <a href="#intro" aria-label="Introduction and rules">Rules</a>
+                <a href="#movement" aria-label="Section about movement">Movemenet</a>
+                <a href="#example" aria-label="Runnable example of a game">Example</a>
+            </div>
         </div>
         <a href="#sources" aria-label="Learn from the professionals">Video</a>
-        <a href="#form" aria-label="Play a game with me!">Sign up</a>
+        <a class="last" href="#form" aria-label="Play a game with me!">Sign up</a>
     </nav>
     <!-- Header-->
     <header id="header">
@@ -29,7 +29,7 @@
             <p>Bite sized guide to understand chess!</p>
         </div>
     </header>
-    
+
     <main>
         <!-- Introduction -->
         <section id="intro">
@@ -37,17 +37,16 @@
                 <h2>Introduction to the game</h2>
                 <p>Dating back to the 15th centruy, chess is a board game where you play against an opponent and the
                     goal of
-                    the game is to capture or "checkmate" the king. 
+                    the game is to capture or "checkmate" the king.
                     <br>
                     Use your wit, tactics and strategy to win this wonderful game.
                     By using the pawns, your bishops, rooks, knights and your queen, you protect your king from danger
-                    while trying to capture your opponents king. 
+                    while trying to capture your opponents king.
                     <br>
                     A wonderful war that can help you improve your cognitive thinking as well.
                 </p>
-                <span>
-                    <p>So what are you waiting for? Let's learn the game!</p>
-                </span>
+                <p>So what are you waiting for? Let's learn the game!</p>
+
             </div>
         </section>
         <!-- Rules -->
@@ -56,11 +55,11 @@
                 <h2>Rules of the game:</h2>
                 <h3>Here's the layout of the chess board</h3>
                 <!-- Image from https://hdqwalls.com/download/1920x1080/chess-8k -->
-                <img src="assets\images\chessboard.png"
+                <img src="assets/images/chessboard.png"
                     alt="A chessboard, an 8x8 grid with alternating light and dark squares, white pieces on the first 2 rows, black pieces on the last 2 rows.">
 
                 <div id="p_order">
-                    <p>The pieces order goes like this:</p>
+                    <h3>The pieces order goes like this:</h3>
                     <ul>
                         <li>Rooks go in the corners.</li>
                         <li>Knights are placed next to the rooks.</li>
@@ -70,9 +69,64 @@
                         <li>Pawns occupy the second row for white and the seventh row for black.</li>
                     </ul>
                 </div>
+                <hr>
                 <div id="movement">
+                    <h2>Movement of the pieces</h2>
+                    <h4>Pawns</h4>
+                    <ul>
+                        <li>Move forward one square, but capture diagonally.</li>
+                        <li>On their first move, pawns have the option to move forward two squares.</li>
+                        <li>Pawns promote to any other piece upon reaching the opponent's back rank.</li>
+                    </ul>
+                    <h4>Rooks</h4>
+                    <ul>
+                        <li>Move horizontally or vertically any number of squares.</li>
+                    </ul>
+                    <h4>Knights</h4>
+                    <ul>
+                        <li>Move in an "L" shape, either two squares in one direction and one square perpendicular, or one square in one direction and two squares perpendicular. Knights can jump over other pieces.</li>
+                    </ul>
+                    <h4>Bishops</h4>
+                    <ul>
+                        <li>Move diagonally any number of squares.</li>
+                    </ul>
+                    <h4>Queens</h4>
+                    <ul>
+                        <li>Combine the movements of rooks and bishops, moving horizontally, vertically, or diagonally any number of squares.</li>
+                    </ul>
+                    <h4>Kings</h4>
+                    <ul>
+                        <li>Move one square in any direction.</li>
+                    </ul>
+                    <h3>Some <span>special</span> moves</h3>  
+                    <h4>Castling</h4>
+                    <ul>
+                        <li>A special move involving the king and a rook. It allows the king to move two squares towards a rook, and the rook moves to the square the king skipped.</li>
+                    </ul>
+                    <h4>En Passant</h4>
+                    <ul>
+                        <li>A pawn capturing rule. If a pawn moves two squares forward from its starting position, and lands beside an opponent's pawn, that opponent's pawn can capture it as if it only moved one square forward.</li>
+                    </ul>  
                     <p></p>
+                    <h3>Some <span>special</span> rules!</h3>
+                    <h4>Check</h4>
+                    <ul>
+                        <li>A king is in check if it is attacked by an opponent's piece. The player must make a move to get out of check.</li>
+                    </ul>
+                    <h4>Checkmate</h4>
+                    <ul>
+                        <li>If a player's king is in check and there is no legal move to remove the threat, it is checkmate and the game is over.</li>
+                    </ul>  
+                    <h4>Stalemate</h4>
+                    <ul>
+                        <li>If a player has no legal moves and their king is not in check, it's a stalemate. The game is a draw.</li>
+                    </ul>  
+                    <h4>Draws</h4>
+                    <ul>
+                        <li>There are various ways a game can end in a draw, such as by agreement, threefold repetition, the fifty-move rule, or insufficient material.</li>
+                    </ul>                   
                 </div>
+                <hr>
             </div>
         </section>
     </main>
