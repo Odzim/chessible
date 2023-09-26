@@ -187,6 +187,10 @@ footer {
     left: 0;
     right: 0;
     padding: 2px;
+    position: fixed;
+    min-height: 130px;
+    max-height: 135px;
+    
 }
 
 footer > div > p {
